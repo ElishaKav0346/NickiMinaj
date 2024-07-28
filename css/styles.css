@@ -141,9 +141,6 @@ q{
     padding: 2rem;
     text-decoration: none;
     text-align: center;
-    a:link{ color:rgb(144, 4, 99)};
-    a:visited{color:rgb(144, 4, 99)};
-    a:hover{color:rgb(248, 81, 181)};
     line-height: 1.5;
 }
 #Contact-Form{
@@ -157,12 +154,14 @@ q{
     line-height: 1.5;   
 }
 label{
+    width: 100%;
     color: black;
     font-weight: normal;
     font-family: Arial, Helvetica, sans-serif;
 }
 input{
     height: 2rem;
+    width:100%;
     width: 100%;
     color: black;
 } 
@@ -170,6 +169,9 @@ ul, ol{
     list-style-type: none;
     text-align: right;
 }
+a:link{ color:rgb(144, 4, 99)};
+a:visited{color:rgb(144, 4, 99)};
+a:hover{color:rgb(248, 81, 181)}
 h1{
     color: black;
     font-variant: small-caps;
